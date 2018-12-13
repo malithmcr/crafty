@@ -1,0 +1,51 @@
+.widget {
+	margin: 0 0 1.5em;
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+}
+.widget{
+	h2.widget-title {
+		font-size: 21px;
+		font-weight: 200;
+	}
+	ul {
+		margin: 0; 
+		padding: 0;
+		li {
+			list-style: none;
+			display: inline-block;
+			background: #ffffff;
+			padding: 2px 18px;
+			margin: 4px 0;
+			border-radius: 0;
+			border: 1px solid #ccc;
+			a {
+				text-decoration: none;
+				color: #5a5a5a;
+				font-size: 13px;
+			}
+		}
+	}
+
+	.search-form {
+		input[type="search"] {
+			width: 80%;
+			border: 1px solid #ccc;
+			border-radius: 0;
+			padding: 8px;
+			margin: 5px 0;
+		}
+		input[type="submit"]  {
+			border: 1px solid black;
+			padding: 14px 31px;
+			border-radius: 0;
+			width: 18%;
+			font-size: 14px;
+			color: #fbfbfb;
+			background: #0a0a0a;
+		}
+	}
+}

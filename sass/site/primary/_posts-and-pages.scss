@@ -1,0 +1,147 @@
+.sticky {
+  display: block;
+}
+.post {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 21px;
+  position: relative;
+}
+.post,
+.page {
+  margin: 0 0 1.5em;
+  .entry-title {
+    margin-bottom: 0;
+    a {
+      text-decoration: none;
+      font-size: 23px;
+      color: #383838;
+      font-weight: 600;
+      font-family: "Raleway", sans-serif;
+    }
+  }
+  .entry-meta {
+    font-size: 12px;
+    a {
+      text-decoration: none;
+      color: #383838;
+    }
+  }
+  .read-more {
+    a {
+      text-decoration: none;
+      color: #777777;
+      font-size: 16px;
+      transition: 0.4s color;
+      &:hover {
+        color: #ff8963;
+      }
+    }
+  }
+  blockquote {
+    margin: 0;
+  }
+}
+.single-post {
+  blockquote {
+    margin: 0;
+  }
+  .read-more {
+    display: none;
+  }
+  .post-navigation {
+    a {
+      color: #4a4a4a;
+    }
+  }
+}
+
+.updated:not(.published) {
+  display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+  margin: 1.5em 0 0;
+  color: #4a4a4a;
+  p {
+    color: #4a4a4a;
+  }
+}
+.entry-content {
+  color: #4a4a4a;
+  margin-top: 0;
+  p {
+    color: #545454;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+  }
+}
+
+.page-links {
+  clear: both;
+  margin: 0 0 1.5em;
+}
+
+.site-content {
+  @include bp(min-width, $craft-md) {
+    position: relative;
+    margin-left: 320px;
+    margin-left: 20rem;
+    padding: 16px 32px;
+    padding: 1rem 2rem;
+    width: calc(100% - 20rem);
+    max-width: 1120px;
+    max-width: 70rem;
+    min-height: 100vh;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-left: 1px solid rgba(0, 0, 0, 0.09);
+    border-right: 1px solid rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    background: #fff;
+  }
+  padding: 16px 32px;
+  padding: 1rem 2rem;
+}
+
+.crafty-category-tag {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  a {
+    background: #444242;
+    border-radius: 3px 0 0 3px;
+    color: #999;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px 0 23px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+    &:before {
+      background: #fff;
+      border-radius: 16px;
+      content: "";
+      height: 6px;
+      left: 10px;
+      position: absolute;
+      width: 6px;
+      top: 10px;
+      border: 1px solid #f7f7f7;
+    }
+    &:after {
+      background: #444242;
+      border-bottom: 13px solid white;
+      border-left: 10px solid #444242;
+      border-top: 13px solid snow;
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}

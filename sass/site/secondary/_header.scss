@@ -1,0 +1,49 @@
+.site-header {
+  @include bp(min-width, $craft-md) {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 320px;
+    width: 20rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    background: #fdfdfd;
+  }
+}
+
+.site-title {
+  padding: 0;
+  margin: 0;
+  a {
+    text-decoration: none;
+    font-size: 32px;
+    color: black;
+  }
+}
+
+.site-description {
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  color: #a0a0a0;
+}
+
+.site-branding {
+  display: inline-block;
+  padding: 20px;
+}
+
+.widget-area {
+	h2.widget-title {
+		font-size: 21px;
+		font-weight: 200;
+	}
+	ul {
+		margin: 0; 
+		li {
+			list-style: none;
+		}
+	}
+}
