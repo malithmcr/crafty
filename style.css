@@ -642,6 +642,8 @@ a:hover, a:active {
 		width: 20%;
 		vertical-align: top;
 		margin-top: 31px;
+		float: right;
+		margin-right: 20px;
 	}
 }
 
@@ -705,6 +707,41 @@ a:hover, a:active {
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
+	background: black;
+	border: 0;
+	font-size: 8px;
+	color: white;
+	float: right;
+	padding: 8px 7px;
+}
+
+.menu-toggle li,
+.main-navigation.toggled ul li {
+	display: inline-block;
+}
+
+.main-navigation.toggled ul {
+	position: absolute;
+	left: 0;
+	background: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	text-align: center;
+	padding: 18px;
+}
+
+.main-navigation.toggled ul li {
+	display: inline-block;
+	padding: 4px;
+	margin: 0px;
+	border: 1px solid #ccc;
+}
+
+.main-navigation.toggled ul li a {
+	display: block;
+	text-decoration: none;
+	color: #545252;
+	font-size: 14px;
+	transition: 0.5s color;
 }
 
 @media screen and (min-width: 37.5em) {
