@@ -56,9 +56,9 @@
 			
 			<div class="social-header">
 				<ul>
-					<li><a href="#facebook" target="_new">Facebook</a></li>
-					<li><a href="#linkedIn" target="_new">LinkedIn</a></li>
-					<li><a href="#github" target="_new">Github</a></li>
+					<li><a href="https://www.instagram.com/craftcode.design/" target="_new">Instagram</a></li>
+					<li><a href="https://linkedin.com/in/malithmcr/" target="_new">LinkedIn</a></li>
+					<li><a href="https://github.com/malithmcr" target="_new">Github</a></li>
 				</ul>
 			</div>
 	</header><!-- #masthead -->

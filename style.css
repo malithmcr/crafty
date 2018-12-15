@@ -687,8 +687,14 @@ a:hover, a:active {
 	position: relative;
 	display: block;
 	padding: 20px 20px;
-	background: #f3f3f3;
+	background: #fbfbfb;
 	margin: 1px 0;
+	border-bottom: 1px solid #ececec;
+	transition: .5s background;
+}
+
+.main-navigation li:hover, .main-navigation li.focus {
+	background: #eaeaea;
 }
 
 .main-navigation a {
@@ -1150,7 +1156,27 @@ a:hover, a:active {
 .site-title a {
 	text-decoration: none;
 	font-size: 32px;
-	color: black;
+	color: rgba(140, 140, 140, 0.7);
+	animation: text-pop-up-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation text-pop-up-bottom
+ * ----------------------------------------
+ */
+
+@keyframes text-pop-up-bottom {
+	0% {
+		transform: translateY(0);
+		transform-origin: 50% 50%;
+		text-shadow: none;
+	}
+	100% {
+		transform: translateY(50px);
+		transform-origin: 50% 50%;
+		text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc;
+	}
 }
 
 .site-description {
@@ -1179,13 +1205,16 @@ a:hover, a:active {
 }
 
 div.social-header ul {
-	margin: 0;
+	margin: 0 0 0 -31px;
 }
 
 div.social-header li {
 	list-style: none;
 	display: inline-block;
-	font-size: 13px;
+	font-size: 14px;
+	margin: 40px 11px;
+	text-align: center;
+	text-decoration: underline;
 }
 
 div.social-header li a {
