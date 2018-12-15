@@ -6,6 +6,9 @@
   padding-bottom: 21px;
   position: relative;
 }
+.entry-header {
+  padding-bottom: 10px;
+}
 .post,
 .page {
   margin: 0 0 1.5em;
@@ -17,6 +20,21 @@
       color: #383838;
       font-weight: 600;
       font-family: "Raleway", sans-serif;
+      &:hover {
+        transition: width 2s;
+        &:after {
+          width: 60px;
+        }  
+      }
+      &:after {
+          content: '';
+          width: 40px;
+          height: 3px;
+          background: #585858;
+          display: block;
+          margin: 6px 0;
+          transition: width 2s;
+      }
     }
   }
   .entry-meta {

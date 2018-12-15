@@ -951,6 +951,10 @@ a:hover, a:active {
 	position: relative;
 }
 
+.entry-header {
+	padding-bottom: 10px;
+}
+
 .post,
 .page {
 	margin: 0 0 1.5em;
@@ -968,6 +972,27 @@ a:hover, a:active {
 	color: #383838;
 	font-weight: 600;
 	font-family: "Raleway", sans-serif;
+}
+
+.post .entry-title a:hover,
+.page .entry-title a:hover {
+	transition: width 2s;
+}
+
+.post .entry-title a:hover:after,
+.page .entry-title a:hover:after {
+	width: 60px;
+}
+
+.post .entry-title a:after,
+.page .entry-title a:after {
+	content: '';
+	width: 40px;
+	height: 3px;
+	background: #585858;
+	display: block;
+	margin: 6px 0;
+	transition: width 2s;
 }
 
 .post .entry-meta,
