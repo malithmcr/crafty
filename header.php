@@ -53,6 +53,14 @@
 			) );
 			?>
 		</nav><!-- #site-navigation -->
+			
+			<div class="social-header">
+				<ul>
+					<li><a href="#facebook" target="_new">Facebook</a></li>
+					<li><a href="#linkedIn" target="_new">LinkedIn</a></li>
+					<li><a href="#github" target="_new">Github</a></li>
+				</ul>
+			</div>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

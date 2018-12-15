@@ -47,3 +47,18 @@
 		}
 	}
 }
+
+div.social-header {
+  ul {
+   margin: 0;
+  }
+  li {
+    list-style: none;
+    display: inline-block;
+    font-size: 13px;
+    a {
+      text-decoration: none;
+      color: #2f2f2f;
+    }
+  }
+}

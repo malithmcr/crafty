@@ -1178,6 +1178,21 @@ a:hover, a:active {
 	list-style: none;
 }
 
+div.social-header ul {
+	margin: 0;
+}
+
+div.social-header li {
+	list-style: none;
+	display: inline-block;
+	font-size: 13px;
+}
+
+div.social-header li a {
+	text-decoration: none;
+	color: #2f2f2f;
+}
+
 .widget {
 	margin: 0 0 1.5em;
 	/* Make sure select elements fit in widgets. */
