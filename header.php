@@ -53,12 +53,24 @@
 			) );
 			?>
 		</nav><!-- #site-navigation -->
-			
+				<?php
+				$instagram = get_option('instagram_social_link');
+				$linkedin = get_option('linkedin_social_link');
+				$github = get_option('github_social_link');
+				?>
 			<div class="social-header">
 				<ul>
-					<li><a href="https://www.instagram.com/craftcode.design/" target="_new">Instagram</a></li>
-					<li><a href="https://linkedin.com/in/malithmcr/" target="_new">LinkedIn</a></li>
-					<li><a href="https://github.com/malithmcr" target="_new">Github</a></li>
+				<?php 
+				if($instagram) {
+					echo '<li><a href="'.$instagram.'" target="_new">Instagram</a></li>';
+				} 
+				if($linkedin) {
+					echo '<li><a href="'.$linkedin.'" target="_new">LinkedIn</a></li>';
+				} 
+				if($github) {
+					echo '<li><a href="'.$github.'" target="_new">Github</a></li>';
+				} 
+				?>
 				</ul>
 			</div>
 	</header><!-- #masthead -->
