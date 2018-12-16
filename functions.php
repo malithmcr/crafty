@@ -139,6 +139,22 @@ function wpb_add_google_fonts() {
 
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 
+/** Admin Options */
+add_action( 'admin_menu', 'crafty_options_menu' );
+
+function crafty_options_menu() {
+	add_options_page( 'Crafty', 'Crafty', 'manage_options', 'crafty-theme-options-id', 'crafty_options' );
+}
+
+function crafty_options() {
+	if ( !current_user_can( 'manage_options' ) )  {
+		wp_die( __( 'You do not have sufficient permissions to access this page.' ) );
+	}
+	echo '<div class="wrap">';
+	echo '<p>Working on.</p>';
+	echo '</div>';
+}
+
 /**
  * Implement the Custom Header feature.
  */
