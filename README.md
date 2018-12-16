@@ -8,7 +8,7 @@
 </h4>
  
 <div align="center">
-  <img alt="Header" src="screenshot.png" width="88%">
+    <img alt="Header" src="screenshot.png" width="88%">
 </div>
 
 
