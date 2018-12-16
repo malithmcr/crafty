@@ -18,6 +18,7 @@
 - Sassified.
 - 3d Logo animation.
 - Hover animation.
+- Theme options
 
 ## Contributing
 
