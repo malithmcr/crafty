@@ -960,6 +960,17 @@ a:hover, a:active {
 	margin: 0 0 1.5em;
 }
 
+.post a,
+.page a {
+	color: #2c5e84;
+	transition: .5s color;
+}
+
+.post a:hover ,
+.page a:hover  {
+	color: black;
+}
+
 .post .entry-title,
 .page .entry-title {
 	margin-bottom: 0;
@@ -969,7 +980,7 @@ a:hover, a:active {
 .page .entry-title a {
 	text-decoration: none;
 	font-size: 23px;
-	color: #383838;
+	color: #2c5e84;
 	font-weight: 600;
 	font-family: "Raleway", sans-serif;
 }
@@ -1136,6 +1147,15 @@ a:hover, a:active {
 	top: 0;
 }
 
+a {
+	color: #2c5e84;
+	transition: .5s color;
+}
+
+a:hover  {
+	color: black;
+}
+
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
@@ -1181,7 +1201,7 @@ a:hover, a:active {
 .site-title a {
 	text-decoration: none;
 	font-size: 32px;
-	color: rgba(140, 140, 140, 0.7);
+	color: #2c5e84;
 	animation: text-pop-up-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
@@ -1244,7 +1264,7 @@ div.social-header li {
 
 div.social-header li a {
 	text-decoration: none;
-	color: #2f2f2f;
+	color: #2c5e84;
 }
 
 .widget {

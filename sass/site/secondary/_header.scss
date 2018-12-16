@@ -19,7 +19,7 @@
   a {
     text-decoration: none;
     font-size: 32px;
-    color: rgba(140, 140, 140, 0.7);
+    color: rgb(44, 94, 132);
     -webkit-animation: text-pop-up-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: text-pop-up-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
@@ -102,7 +102,7 @@ div.social-header {
     text-decoration: underline;
     a {
       text-decoration: none;
-      color: #2f2f2f;
+      color: rgb(44, 94, 132);
     }
   }
 }

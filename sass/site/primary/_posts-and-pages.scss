@@ -12,12 +12,19 @@
 .post,
 .page {
   margin: 0 0 1.5em;
+  a {
+    color: rgb(44, 94, 132);
+    transition: .5s color;
+    &:hover {
+      color: black;
+    }
+  }
   .entry-title {
     margin-bottom: 0;
     a {
       text-decoration: none;
       font-size: 23px;
-      color: #383838;
+      color: rgb(44, 94, 132);
       font-weight: 600;
       font-family: "Raleway", sans-serif;
       &:hover {
@@ -161,5 +168,13 @@
       right: 0;
       top: 0;
     }
+  }
+}
+
+a {
+  color: rgb(44, 94, 132);
+  transition: .5s color;
+  &:hover {
+    color: black;
   }
 }
