@@ -8,9 +8,7 @@
 </h4>
  
 <div align="center">
-  <kbd>
     <img alt="Header" src="screenshot.png" width="88%">
-  </kbd>
 </div>
 
 
