@@ -32,3 +32,9 @@
 ## License
 
 [MIT](LICENSE)
+
+<div align="center">
+    <img alt="Header" src="screenshot.png" width="88%">
+  <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#46b798', 'U7U7LCWW');kofiwidget2.draw();</script> 
+</div>
+
