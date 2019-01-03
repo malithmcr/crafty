@@ -34,7 +34,6 @@
 [MIT](LICENSE)
 
 <div align="center">
-    <img alt="Header" src="screenshot.png" width="88%">
-  <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#46b798', 'U7U7LCWW');kofiwidget2.draw();</script> 
+    <a href="https://www.paypal.me/craftcode"><img alt="Header" src="https://cdn-images-1.medium.com/max/806/1*G95uyokAH4JC5Ppvx4LmoQ.png" width="88%"></a>
 </div>
 
